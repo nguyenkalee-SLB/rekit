@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReKit — Student Starter Kits</title>
+  <meta name="description" content="ReKit loue des kits d’essentiels pour étudiants (cuisine, vaisselle, literie, salle de bain, tech), livrés dans ta chambre avant ton arrivée et récupérés au départ. Rent. Reuse. Repeat.">
+  <meta name="theme-color" content="#0CC0DF">
+  <meta property="og:title" content="ReKit — Student Starter Kits">
+  <meta property="og:description" content="Ta chambre est prête avant toi. Kits d’essentiels livrés en chambre, récupérés au départ.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/brand/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Favicon : seul usage autorisé du logo carré (charte 2.1) -->
+  <link rel="icon" href="assets/brand/favicon.ico" sizes="48x48">
+  <link rel="icon" href="assets/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" href="assets/brand/rekit-logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fredoka (titres, charte 3.5). Texte : TT Commons Pro si installée, sinon Figtree (alternative web libre). -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Aller au contenu</a>
+  <div id="header"></div>
+  <main id="app" tabindex="-1" style="outline:none"></main>
+  <div id="footer"></div>
+
+  <noscript><p style="padding:24px;font-family:sans-serif">ReKit a besoin de JavaScript pour fonctionner. / ReKit needs JavaScript to run.</p></noscript>
+
+  <!-- Génération du QR code de retour (qrcode-generator, MIT) -->
+  <script defer src="assets/vendor/qrcode.js"></script>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
